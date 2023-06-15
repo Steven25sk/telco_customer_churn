@@ -5,7 +5,7 @@ import requests
 import json
 
 # load pipe
-pipe = pickle.load(open("model/preprocess_churn.pkl", "rb"))
+pipe = pickle.load(open("test_frontend/model/preprocess_churn.pkl", "rb"))
 
 # widget input
 st.title("Churn Customer Prediction")
